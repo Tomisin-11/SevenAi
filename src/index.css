@@ -1,0 +1,29 @@
+ @import "tailwindcss";
+
+ @theme {
+  --color-nav: #EBE9FE;
+  --color-Home:#6938EF;
+  --color-navb:#5F39D4;
+  --color-Homet:#EFEEFF;
+  --color-Section:#0B0124;
+  --color-Section3:#9E8AFB;
+  --color-Section3t:#ABB2C8;
+ }
+
+ .scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+ ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      
+    }
+    ::-webkit-scrollbar-thumb {
+ 
+    }
