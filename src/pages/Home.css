@@ -1,0 +1,42 @@
+ 
+
+/* ================= MOBILE ================= */
+@media (max-width: 768px) {
+
+  .hero-container {
+    flex-direction: column;
+    text-align: center;
+    padding: 4rem 1.5rem;
+  }
+
+  .hero-text h1 {
+    font-size: 2.4rem;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+  }
+
+  .hero-image img {
+    max-width: 280px;
+  }
+
+  .course-card {
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .course-card img {
+    width: 100%;
+  }
+
+  .course-text h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .course-actions {
+    flex-direction: column;
+    align-items: center;
+  }
+}
